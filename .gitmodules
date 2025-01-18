@@ -1,0 +1,3 @@
+[submodule "vera-media-service"]
+	path = vera-media-service
+	url = https://github.com/SNinjo/vera-media-service.git
