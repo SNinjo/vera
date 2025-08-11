@@ -1,3 +1,12 @@
 [submodule "vera-media-service"]
 	path = vera-media-service
-	url = https://github.com/SNinjo/vera-media-service.git
+	url = git@github.com:SNinjo/vera-media-service.git
+[submodule "vera-identity-service"]
+	path = vera-identity-service
+	url = git@github.com:SNinjo/vera-identity-service.git
+[submodule "vera-drive-service"]
+	path = vera-drive-service
+	url = git@github.com:SNinjo/vera-drive-service.git
+[submodule "vera-site"]
+	path = vera-site
+	url = git@github.com:SNinjo/vera-site.git
