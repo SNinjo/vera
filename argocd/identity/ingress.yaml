@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: vera-identity
+  namespace: vera
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: vera.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: vera-identity
+                port:
+                  number: 80
