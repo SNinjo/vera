@@ -10,3 +10,6 @@
 [submodule "vera-site"]
 	path = vera-site
 	url = git@github.com:SNinjo/vera-site.git
+[submodule "vera-infra"]
+	path = vera-infra
+	url = https://github.com/SNinjo/vera-infra.git
