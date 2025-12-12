@@ -53,4 +53,4 @@ A full-stack web system for convenient cloud services.
     docker-compose up -d
     ```
 
-7. EnOpen the [website](http://localhost:8080) and log in with Gmail
+7. Open the [website](http://localhost:8080) and log in with Gmail
